@@ -199,3 +199,54 @@ section.hot-deal {
     display: block;
     margin: auto;
 }
+/* Get The Latest Deals */
+.latest-deals .container {
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1140px;
+    height: 360px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-deals #email {
+    width: 690px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+/* Background Image Ratio
+1440 : 449
+3.21 : 1
+1140 : (1140/3.21) or 355px
+*/
+
+/* Footer */
+footer {
+    margin-top: 110px;
+    padding: 120px 0px;
+    background-color: #111010;
+    text-align: center;
+}
+.footer-title {
+    color: #ffffff;
+
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-title span {
+    color: #e55473;
+}
+footer .description {
+    color: #ffffffe5;
+}
+footer small {
+    color: #ffffff66;
+}
