@@ -7,7 +7,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-/* For All */
+/* For all section */
 .container {
     width: 1140px;
     margin: auto;
@@ -41,16 +41,23 @@ h5.small-title {
     line-height: 35px;
 }
 .btn-primary {
+    cursor: pointer;
     padding: 20px 43px;
     border-radius: 8px;
     background: #e55473;
-    border: none;
+    border: 2px solid #e55473;
     outline: none;
 
     color: #fff;
     font-size: 16px;
     font-weight: 700;
 }
+.btn-primary:hover {
+    color: #e55473;
+    background: white;
+    border: 2px solid #e55473;
+}
+
 /* Header Part */
 header {
     background-color: #e554731a;
@@ -171,6 +178,7 @@ section.hot-deal {
     font-size: 35px;
     margin: auto 0px;
     color: #5e5e5e;
+    cursor: pointer;
 }
 .review-part .slide-btn.previous-btn {
     text-align: left;
@@ -215,7 +223,7 @@ section.hot-deal {
 
 .latest-deals #email {
     width: 690px;
-    height: 60px;
+    height: 62px;
     border: none;
     outline: none;
     border-radius: 8px;
